@@ -17,3 +17,18 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+#container {
+    background: black;
+    width: 424px;
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    background: blue;
+    color: black;
+}
