@@ -8,7 +8,7 @@ Developed @ One Month in NYC
  */
 
 body {
-    background: url('../images/cookie-monster.jpg');
+    background: url('../images/geometric-shape.jpg');
     /* the follow is the code to have the image display as a full page */
     background-position: center;
     background-attachment: fixed;
@@ -16,11 +16,12 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 #container {
-    background: black;
-    width: 424px;
+    background: #050C05;
+    width: 560px;
     color: white;
     padding: 15px;
 }
@@ -30,13 +31,12 @@ h1 {
 }
 
 h2 {
-    background: #75c1f6;
+    background: #DCE0E4;
     color: black;
     padding: 5px;
     border-radius: 5px;
 }
 
 a {
-    color: #75c1f6;
-    text-decoration: none;
+    color: #E79201;
 }
