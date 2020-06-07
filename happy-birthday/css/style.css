@@ -4,8 +4,13 @@
 
 
 body {
-    background: #DDD;
+    background: url('../images/space-background.png');
     font-family: 'Open Sans', arial, sans-serif;
+
+    /* full page background recipe */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 * {
@@ -95,6 +100,11 @@ section.intro {
 section.intro, section.contact {
     padding: 30px;
 }
+
+section.contact {
+    background: #DDD;
+}
+
 /*
  * Aside Styles
  */
@@ -105,4 +115,9 @@ aside.left {
 
 aside.right {
     float: right;
+}
+
+aside {
+    margin-right: 1.5rem;
+    margin-bottom: 0.625rem;
 }
