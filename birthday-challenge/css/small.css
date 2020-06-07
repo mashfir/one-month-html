@@ -1,0 +1,30 @@
+/*
+ * Container Styles
+ */
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+/*
+ * Hero Styles
+ */
+
+.hero img {
+    border-radius: 0;
+}
+
+/*
+ * Aside Styles
+ */
+
+aside {
+    text-align: center;
+}
+
+aside.right, aside.left {
+    float: inherit;
+}
