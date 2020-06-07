@@ -21,12 +21,44 @@ Author: Christopher Castig | @castig
 }
 
 
+.subheader {
+    margin: 0 auto 0;
+}
+
 /*----------------------------------------------------------------------------- 
 02=LAYOUT  
 -----------------------------------------------------------------------------*/
 
+body {
+    background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7; /* line-height is unit-less */
+    font-size: 100%;
+}  
+
+a {
+    color: #e53200;
+    text-decoration: none;
+}
 /*----------------------------------------------------------------------------- 
 03=MAIN  
 -----------------------------------------------------------------------------*/
 
+#header {
+    margin: 0 auto 0;
+}
 
+h1 {
+    margin: 0 auto 0;
+    line-height: 1;
+}
+
+
+#main {
+    background: white;
+}
+
+#sidebar {
+    background: white;
+}
