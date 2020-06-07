@@ -32,6 +32,9 @@ Developed @ One Month in NYC
     margin: 0 0 15px 15px;
 }
 
+.rounded {
+    border-radius: 50%;
+}
 
 /*----------------------------------------------------------------------------- 
 =02 LAYOUT 

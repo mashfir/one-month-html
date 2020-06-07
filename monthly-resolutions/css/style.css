@@ -22,8 +22,17 @@ Author: Christopher Castig | @castig
 
 
 .subheader {
-    margin: 0 auto 10px 0;
+    margin: 0 auto 20px 0;
     font-size: 14px;
+}
+
+.caption {
+    color: gray;
+    margin: auto 0 50px 0;
+}
+
+.rounded {
+    border-radius: 50%;
 }
 
 /*----------------------------------------------------------------------------- 
@@ -42,6 +51,25 @@ a {
     color: #e53200;
     text-decoration: none;
 }
+
+h1 {
+    margin: 0 auto 0;
+    line-height: 1;
+    font-size: 3.0em;
+}
+
+h2 {
+    margin: 0 auto;
+    font-size: 2.0em;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 5px;
+    border-left: 4px solid #5d6da947;
+    padding: 10px;
+}
+
 /*----------------------------------------------------------------------------- 
 03=MAIN  
 -----------------------------------------------------------------------------*/
@@ -50,13 +78,8 @@ a {
     margin: 0 auto 0;
 }
 
-h1 {
-    margin: 0 auto 0;
-    line-height: 1;
-}
-
 #container {
-    width: 1500px;
+    width: 1200px;
     margin: 0 auto 0 auto;
 }
 
@@ -70,7 +93,7 @@ h1 {
 
 #sidebar {
     background: white;
-    width: 400px;
+    width: 300px;
     float: left;
     padding: 30px;
 }
