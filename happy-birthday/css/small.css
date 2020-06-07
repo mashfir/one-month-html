@@ -16,3 +16,15 @@
 .hero img {
     border-radius: 0;
 }
+
+/*
+ * Aside Styles
+ */
+
+aside {
+    text-align: center;
+}
+
+aside.right, aside.left {
+    float: inherit;
+}
