@@ -22,7 +22,8 @@ Author: Christopher Castig | @castig
 
 
 .subheader {
-    margin: 0 auto 0;
+    margin: 0 auto 10px 0;
+    font-size: 14px;
 }
 
 /*----------------------------------------------------------------------------- 
@@ -54,11 +55,22 @@ h1 {
     line-height: 1;
 }
 
+#container {
+    width: 1500px;
+    margin: 0 auto 0 auto;
+}
 
 #main {
     background: white;
+    width: 700px;
+    float: left;
+    margin: 0 10px auto auto;
+    padding: 30px;
 }
 
 #sidebar {
     background: white;
+    width: 400px;
+    float: left;
+    padding: 30px;
 }
