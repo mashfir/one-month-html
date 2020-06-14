@@ -64,8 +64,21 @@ strong {
 }
 
 /*
+ * Figure styles
+*/
+
+figure.icon {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+/*
  * Section styles
 */
+
+.heading {
+    background-color: white;
+}
 
 .profile {
     width: 100%;
@@ -80,3 +93,7 @@ strong {
 /*
  * Aside styles
 */
+
+.pet-details h1 {
+    font-size: 1.5rem;
+}
