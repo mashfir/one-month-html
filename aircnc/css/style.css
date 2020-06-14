@@ -62,3 +62,21 @@ strong {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*
+ * Section styles
+*/
+
+.profile {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile h2 {
+    font-weight: bold;
+}
+
+/*
+ * Aside styles
+*/
