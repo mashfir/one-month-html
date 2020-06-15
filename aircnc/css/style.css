@@ -13,7 +13,7 @@ body {
     background: rgb(245, 245, 245);
     font-family: 'Open Sans', arial, sans-serif;
     font-size: 0.875rem;
-    color: rgb(86, 90, 92);
+    color: #565A5C;
 }
 
 .clearfix:after {
@@ -32,16 +32,31 @@ strong {
     font-weight: 600;
 }
 
+h1 {
+    font-size: 1.57rem;
+    color: #666A6C;
+    margin-bottom: 5px;
+}
+
 /*
  * Header styles
  */
 
 header {
     background: white;
+    height: 60px;
+}
+
+header .img {
+    width: 120px
 }
 
 header .logo {
     border-right: 1px solid #DCE0E0;
+}
+
+.hero img {
+    width: 100%;
 }
 
 /*
@@ -61,67 +76,67 @@ header .logo {
 }
 
 /*
- * Image styles
- */
-
-.hero img {
-    width: 100%;
-}
-
-.owner {
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*
  * Figure styles
  */
 
 figure.icon {
     display: inline-block;
-    margin-right: 30px;
+    width: 25%;
+    margin-bottom: 20px;
 }
 
 /*
  * Section styles
  */
 
-.profile {
+.info {
+    background-color: white;
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    color: #909597;
+    padding: 20px;
 }
 
-.name {
+.info .owner-details {
+    margin: 0 auto 10px;
+}
+.info .owner-details img {
+    border-radius: 50%;
+    width: 90px;
+}
+
+.info h2.name {
     font-weight: bold;
 }
 
-.first {
-    background-color: white;
+.info .owner-details img {
+    border-radius: 50%;
+    width: 90px;
 }
 
-.booking {
-    width: 100%;
-    margin: auto auto;
-    text-align: center;
+.info .pet-details p {
+    margin-bottom: 20px;
+}
+
+.info .booking {
     padding: 0 10px;
+    color: #565A5C;
 }
 
-.price {
+.info .booking h2 {
+    margin-bottom: 10px;
+}
+
+.info .price {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.info .time {
     font-size: 1.25rem;
-    font-weight: bold;
-}
-
-.time {
-    font-size: initial;
     font-weight: initial;
 }
 
-/*
- * Aside styles
- */
-
-.pet-details h1 {
-    font-size: 1.5rem;
+@media only screen and (min-width: 1060px) {
 }
