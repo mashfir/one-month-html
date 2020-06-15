@@ -68,11 +68,12 @@ header .logo {
     color: white;
     text-decoration: none;
     display: block;
-    padding: 0.75rem 5rem;
+    padding: 0.75rem 0;
     border-bottom: 1px solid rgb(227, 25, 29);
     border-radius: 2px;
     width: 95%;
     margin: 0 auto;
+    max-width: 274px;
 }
 
 /*
@@ -104,15 +105,7 @@ figure.icon {
 .info .owner-details img {
     border-radius: 50%;
     width: 90px;
-}
-
-.info h2.name {
-    font-weight: bold;
-}
-
-.info .owner-details img {
-    border-radius: 50%;
-    width: 90px;
+    margin-bottom: 5px;
 }
 
 .info .pet-details p {
@@ -139,4 +132,45 @@ figure.icon {
 }
 
 @media only screen and (min-width: 1060px) {
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    .container {
+        width: 1040px;
+        margin: 0 auto;
+    }
+    
+    .column {
+        float: left;
+    }
+
+    .info .profile {
+        width: 660px;
+        border-right: 1px solid #DCE0E0;
+    }
+
+    .info .booking {
+        width: 380px;
+    }
+
+    .info .owner-details {
+        width: 20%;
+    }
+
+    .info .pet-details {
+        width: 80%;
+        text-align: left;
+    }
+
+    .info .icons {
+        width: inherit;
+        text-align: left;
+    }
+
+    figure.icon {
+        text-align: center;
+    }
+
 }
