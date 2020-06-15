@@ -1,59 +1,70 @@
 /*
  * General/Utility Styles
-*/
+ */
 
 * {
-  -moz-box-sizing: border-box; /* Firexfox */
-  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-  box-sizing: border-box; /* IE */
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
 }
 
 body {
-  margin: 0;
-  background: rgb(245, 245, 245);
-  font-family: 'Open Sans', arial, sans-serif;
-  font-size: 0.875rem;
-  color: rgb(86, 90, 92);
+    margin: 0;
+    background: rgb(245, 245, 245);
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 0.875rem;
+    color: rgb(86, 90, 92);
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 a {
-  font-weight: bold;
-  color: rgb(255, 89, 95);
-  text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 89, 95);
+    text-decoration: none;
 }
 
 strong {
-  font-weight: 600;
+    font-weight: 600;
 }
 
+/*
+ * Header styles
+ */
+
+header {
+    background: white;
+}
+
+header .logo {
+    border-right: 1px solid #DCE0E0;
+}
 
 /*
  * Button styles
-*/
+ */
 
 .button {
-  background: rgb(255, 89, 95);
-  color: white;
-  text-decoration: none;
-  display: block;
-  padding: 0.75rem 5rem;
-  border-bottom: 1px solid rgb(227, 25, 29);
-  border-radius: 2px;
-  width: 95%;
-  margin: 0 auto;
+    background: rgb(255, 89, 95);
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.75rem 5rem;
+    border-bottom: 1px solid rgb(227, 25, 29);
+    border-radius: 2px;
+    width: 95%;
+    margin: 0 auto;
 }
 
 /*
  * Image styles
-*/
+ */
 
-.hero {
+.hero img {
     width: 100%;
 }
 
@@ -65,7 +76,7 @@ strong {
 
 /*
  * Figure styles
-*/
+ */
 
 figure.icon {
     display: inline-block;
@@ -74,11 +85,7 @@ figure.icon {
 
 /*
  * Section styles
-*/
-
-.heading {
-    background-color: white;
-}
+ */
 
 .profile {
     width: 100%;
@@ -86,13 +93,34 @@ figure.icon {
     text-align: center;
 }
 
-.profile h2 {
+.name {
     font-weight: bold;
+}
+
+.first {
+    background-color: white;
+}
+
+.booking {
+    width: 100%;
+    margin: auto auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.time {
+    font-size: initial;
+    font-weight: initial;
 }
 
 /*
  * Aside styles
-*/
+ */
 
 .pet-details h1 {
     font-size: 1.5rem;
