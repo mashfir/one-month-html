@@ -131,6 +131,10 @@ figure.icon {
     font-weight: initial;
 }
 
+.second {
+    background-color: #F5F5F5;
+}
+
 @media only screen and (min-width: 1060px) {
 
     h1 {
