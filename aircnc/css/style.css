@@ -97,6 +97,7 @@ figure.icon {
     text-align: center;
     color: #909597;
     padding: 20px;
+    border-bottom: 1px solid #DCE0E0;
 }
 
 .info .owner-details {
@@ -131,10 +132,55 @@ figure.icon {
     font-weight: initial;
 }
 
-.second {
-    background-color: #F5F5F5;
+/*
+ * Details styles
+*/
+
+.details {
+  padding: 1.25rem;
 }
 
+.details h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.5rem 0 1.5rem 0;
+  color: rgb(86, 90, 92);
+}
+
+.details h4 {
+  margin-bottom: 0.625rem;
+}
+
+.details li {
+  margin-bottom: 0.3125rem;
+}
+
+.details section {
+  border-bottom: 1px solid rgb(220, 224, 224);
+  padding: 1rem 0 1.25rem 0;
+}
+
+.details .about {
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  text-align: center;
+}
+
+.details .about p {
+  text-align: left;
+}
+
+.details .about a.contact {
+  margin: 0.9375rem 0; /* 15px / 16px */
+  display: block;
+}
+
+.details .photos img {
+  width: 100%;
+  display: block;
+  margin-bottom: .5rem;
+}
 @media only screen and (min-width: 1060px) {
 
     h1 {
@@ -145,7 +191,7 @@ figure.icon {
         width: 1040px;
         margin: 0 auto;
     }
-    
+
     .column {
         float: left;
     }
@@ -176,5 +222,43 @@ figure.icon {
     figure.icon {
         text-align: center;
     }
+  
+  /*
+   * .details styles
+  */
+
+  .details .main {
+    width: 690px;
+  }
+
+  .details h4 {
+    width: 46px;
+  }
+
+  .details .about {
+    text-align: left;
+  }
+
+  .details .care .column, .details .games .column {
+    margin-right: 5.9rem;
+  }
+
+  .details .games li img {
+    padding-right: 0.5rem;
+  }
+
+  /*
+   * photo styles
+  */
+
+  .details .photos {
+    text-align: center;
+  }
+
+  .details .photos img {
+    display: inline;
+    width: 200px;
+    margin: 0 0.85rem;
+  }
 
 }
